@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -xe
+set -e
 
 if [ -z "${INPUT_GITHUB_TOKEN}" ] ; then
   echo "::notice title=GitHub API token::Consider setting a GITHUB_TOKEN to prevent GitHub api rate limits"
